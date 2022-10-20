@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" >
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <title>San Pietro</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+            crossorigin="anonymous"
+        >
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+            integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        >
+        <link rel="stylesheet" href="index.css" >
+    </head>
+
+    <body>
+        <nav
+            class="navbar navbar-expand-lg navbar-dark border border-dark"
+            style="background-color: #8c1a11; font-size: 25px"
+        >
+            <div class="container-fluid">  
+                <a class="navbar-brand text-white" style="font-size: 25px" href="#">San Pietro</a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                    class="collapse navbar-collapse justify-content-end"
+                    id="navbarNav"
+                >
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Carte</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container-fluid p-0">
+            <header class="d-flex justify-content-center border border-dark" style="height: 750px;"> 
+                <div class="row justify-content-center">
+                <h1 class="d-flex justify-content-center mt-2 text-white align-items-center" style="font-size: 64px">San Pietro</h1>
+                <button
+                type="button"
+                class="btn text-white m-auto" style="background-color: #8c1a11; font-size: 25px; border: black solid 2px; border-radius: 25px; width: 350px;"
+            >
+                Nous trouver
+            </button>
+            </div>
+        </header>
+            <section id="notre_carte" class="border border-dark">
+                <div class="row">
+                    <h2 class="d-flex justify-content-center mt-2" style="color: #419628">Notre Carte</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 d-flex justify-content-center">
+                        <div class="card border-0" style="width: 18rem">
+                            <div class="card-body">
+                                <h3
+                                    class="card-title d-flex justify-content-center" style="color: #419628"
+                                >
+                                    Entrées
+                                </h3>
+                                <img
+                                    style="width: 275px; height: 200px"
+                                    src="./imgs/bruschetta-4282898_1920.jpg"
+                                    alt="Photo de l'entrée, c'est une bruschetta"
+                                >
+                                <p class="card-text mt-4" style="font-size: 20px;">
+                                    Carpaccio de Bresaola ....8€
+                                <br>
+                                    Bruschetta Italienne ........9€
+                                <br>
+                                    Antipasto à l'Italienne ....10€
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 d-flex justify-content-center">
+                        <div class="card border-0" style="width: 18rem">
+                            <div class="card-body">
+                                <h3
+                                    class="card-title d-flex justify-content-center" style="color: #419628"
+                                >
+                                    Plats
+                                </h3>
+                                <img
+                                    style="width: 275px; height: 200px;"
+                                    src="./imgs/osso-buco-2535546_1920.jpg"
+                                    alt="Photo du plat, c'est un osso buco"
+                                    class="d-flex justify-content-center"
+                                >
+                                <p class="card-text mt-4" style="font-size: 20px;">
+                                    Pizza Napolitaine .......12€
+                                <br>                       
+                                    Osso Bucco ...............14€
+                                <br>
+                                    Escalope Milanaise ....16€
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 d-flex justify-content-center mb-5">
+                        <div class="card border-0" style="width: 18rem">
+                            <div class="card-body">
+                                <h3
+                                    class="card-title d-flex justify-content-center" style="color: #419628"
+                                >
+                                    Desserts
+                                </h3>
+                                <img
+                                    style="width: 275px; height: 200px;"
+                                    src="./imgs/tiramisu-4098241_1920.jpg"
+                                    alt="Photo du dessert, c'est un tiramisu"
+                                >
+                                    <p class="card-text mt-4" style="font-size: 20px;">
+                                    Panna Cotta ....8€
+                                    <br>Tiramusu .........9€
+                                    <br>Zuccotto .......10€</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="notre_service" class="border border-dark" style="background-color: #8c1a11">                 
+                <div class="row">
+                <h2 class="d-flex justify-content-center mt-2 mb-3" style="color: white;">Nos services</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mb-5">
+                    <img class="d-block"
+                    style="width: 350px; margin: auto; height: 233px"
+                    src="./imgs/pizza-5349414_1920.jpg"
+                    alt="Photo d'une personne qui prépare de la pate à pizza'"
+                >
+                </div>
+                <div class="col-md-6 mx-auto d-flex mb-5" style="background-color: #500002; width: 350px; height: 233px">
+                    <p class="text-center text-white m-auto" style="font-size: 20px;">Toutes nos préparations sont réalisés sur place</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mx-auto d-flex mb-5" style="background-color: #500002; width: 350px; height: 233px">
+                    <p class="text-center text-white m-auto" style="font-size: 20px;">Nos aliments sont frais locaux et sélectionnés avec soins</p>
+                </div>
+                    <div class="col-md-6 mb-5">
+                    <img
+                    class="d-block"
+                    style="width: 350px; height: 233px; margin: auto"
+                    src="./imgs/market-3916964_1920.jpg"
+                    alt="Photo d'un marché"
+                >
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mb-5">                   
+                    <img
+                    class="d-block"
+                    style="width: 350px; height:233px; margin: auto"
+                    src="./imgs/waiter-5513560_1920.jpg"
+                    alt="Photo de pizzas dans un four"
+                >
+            </div>
+            <div class="col-md-6 mx-auto d-flex mb-5" style="background-color: #500002; width: 350px; height: 233px">
+                <p class="text-center text-white m-auto" style="font-size: 20px;">Accueil et service agréable et de qualité</p>
+                    </div>
+                </div>
+        </section>
+            <section id="nous_contacter" class="pb-5 border border-dark">
+                <div class="row">
+                    <h2 class="d-flex justify-content-center mt-3 mb-5" style="color: #419628">Nous contacter</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-lg-6 m-auto">
+                        <div class="d-flex flex-column justify-content-around align-items-center">
+                            <div class="d-flex align-items-center mb-4">
+                            <i class="fa-sharp fa-solid fa-user mt-auto mb-auto px-4"></i>
+                            <p class="text-center mb-0" style="color: #419628; font-size: 25px">Trattorai San Pietro</p>
+                             </div>
+                             <div class="d-flex align-items-center mb-4">
+                            <i class="fa-sharp fa-solid fa-location-dot mt-auto mb-auto px-4"></i>
+                            <p class="text-center mb-0" style="color: #419628; font-size: 25px">Via S. Pietro, 95, <br> 35139 Padova PD,<br> Italie</p>
+                            </div>
+                            <div class="d-flex align-items-center mb-4">
+                            <i class="fa-sharp fa-solid fa-mobile-screen mt-auto mb-auto px-4"></i>
+                            <p class="text-center mb-0" style="color: #419628; font-size: 25px"> +390498760330</p>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-6 d-flex justify-content-center">                   
+                        <img
+                        style="width: 500px; min-width: 300px"
+                        src="./imgs/map_restaurant.png"
+                        alt="Photo de la map du restaurant"
+                    >
+                </div>
+                </div>
+            </section>
+        </div>
+        <footer class="card-footer d-flex justify-content-center mb-3 text-white border border-dark" style="background-color: #8c1a11; font-size: 30px">
+            <p class="pt-3">Designed by Vincent Talgorn 2022</p>
+        </footer>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

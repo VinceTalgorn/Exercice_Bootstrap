@@ -1,0 +1,16 @@
+h1,h2, h3, .navbar-brand, .card-footer  {
+    font-family: 'Pacifico', cursive;
+}
+h2{
+    font-size: 40px;
+}
+
+header {
+    background-image: url(./imgs/pizza-2810589_1920.jpg);
+    background-size: cover;
+}
+
+i {
+    color: deepskyblue;
+    font-size: 30px;
+}
